@@ -1,0 +1,9 @@
+project: savantenvs/goldendict
+target: fuzz_mdx
+cmds:
+  - cmd: /mayhem/fuzz_mdx
+    libfuzzer: true
+    timeout: 10
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_mdx/testsuite

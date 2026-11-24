@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xdxf lang_from="ENG" lang_to="ENG" format="visual">
+<full_name>Mayhem Fruits XDXF</full_name>
+<description>sample</description>
+<ar><k>apple</k>A round fruit of the apple tree. <kref>banana</kref></ar>
+<ar><k>banana</k>A long yellow fruit. <kref>banana</kref></ar>
+<ar><k>cherry</k>A small red stone fruit. <kref>banana</kref></ar>
+</xdxf>

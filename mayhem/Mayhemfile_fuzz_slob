@@ -1,0 +1,6 @@
+project: savantenvs/goldendict
+target: fuzz_slob
+cmds:
+  - cmd: /mayhem/fuzz_slob
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,6 @@
+project: savantenvs/goldendict
+target: fuzz_zim
+cmds:
+  - cmd: /mayhem/fuzz_zim
+    libfuzzer: true
+    timeout: 10
